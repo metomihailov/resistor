@@ -1,0 +1,3 @@
+# resistor
+
+homework assigment
