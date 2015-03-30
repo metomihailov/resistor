@@ -1,0 +1,123 @@
+Purvo-Menu = menu('Choose a color','Black','Brown','Red','Orange','Yellow','Green','Blue','Purple','Grey')
+Vtoro-Menu = menu('Choose a color','Black','Brown','Red','Orange','Yellow','Green','Blue','Purple','Grey')
+Treto-Menu = menu('Choose a color','Black','Brown','Red','Orange','Yellow','Green','Blue','Purple','Grey')
+Multiplier = menu('Choose a color','Silver','Gold','Black','Brown','Red','Orange','Yellow','Green','Blue','Purple')
+Tolerance = menu('Choose a color','Silver','Gold','Brown','Red','Green','Blue','Purple')
+
+switch Purvo-Menu
+    case 1
+        res1 = 0
+    case 2
+        res1 = 1
+    case 3
+        res1 = 2
+    case 4
+        res1 = 3
+    case 5
+        res1 = 4
+    case 6
+        res1 = 5
+    case 7
+        res1 = 6
+    case 8
+        res1 = 7
+    case 9
+        res1 = 8
+    case 10
+        res1 = 9
+end
+switch Vtoro-Menu
+    case 1
+        res2 = 0
+    case 2
+        res2 = 10
+    case 3
+        res2 = 20
+    case 4
+        res2 = 30
+    case 5
+        res2 = 40
+    case 6
+        res2 = 50
+    case 7
+        res2 = 60
+    case 8
+        res2 = 70
+    case 9
+        res2 = 80
+    case 10
+        res2 = 90
+end
+switch Treto-Menu
+    case 1
+        res3 = 0
+    case 2
+        res3 = 100
+    case 3
+        res3 = 200
+    case 4
+        res3 = 300
+    case 5
+        res3 = 400
+    case 6
+        res3 = 500
+    case 7
+        res3 = 600
+    case 8
+        res3 = 700
+    case 9
+        res3 = 800
+    case 10
+        res3 = 900
+end
+switch Multiplier
+    case 1
+        res4 = 0.01
+        res4w = 'ohms'
+    case 2
+        res4 = 0.1
+        res4w = 'ohms'
+    case 3
+        res4 = 1
+        res4w = 'ohms'
+    case 4
+        res4 = 10
+        res4w = 'ohms'
+    case 5
+        res4 = 100
+        res4w = 'ohms'
+    case 6
+        res4 = 1
+        res4w ='Kohms'
+    case 7
+        res4 = 10
+        res4w ='Kohms'
+    case 8
+        res4 = 100
+        res4w = 'Kohms'
+    case 9
+        res4 = 1
+        res4w = 'Mohms'
+    case 10
+        res4 = 10
+        res4w = 'Mohms'
+end
+switch Tolerance
+    case 1
+        res5 = '20%'
+    case 2
+        res5 = '10'
+    case 3
+        res5 = '2%'
+    case 4
+        res5 = '4%'
+    case 5
+        res5 = '1%'
+    case 6
+        res5 = '0.8%'
+    case 7
+        res5 = '0.4%'
+end
+res = (res1 + res2 +res3) * res4 
+disp(res4w) 
+disp(res5) 
